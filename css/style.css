@@ -1,0 +1,99 @@
+body{
+  font-family: 'Roboto',
+    sans-serif;
+  font-size: 16px; 
+  background-color: #fff;
+  color: #434455;
+  font-weight: 400;
+  letter-spacing: 2%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #434455;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 36px;
+  color: #2E2F42;
+  text-align: center;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: 500;
+  color: #2E2F42;
+}
+
+.header-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #2E2F42;
+}
+
+.list_link {
+font-size: 16px;
+font-weight: 500;
+color: #2E2F42;
+}
+
+.address {
+  font-style: normal;
+}
+
+.hero-image {
+  background-color: #2E2F42;
+  text-align: center;
+}
+
+.hero-title {
+  color: #FFFFFF;
+  font-size: 56px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+.hero-btn {
+  background-color: #4D5AE5;
+  color:  #fff;
+  font-weight: 500;
+  letter-spacing: 4%;
+  line-height: 24px;
+}
+
+.features-text {
+  line-height: 24px;
+}
+
+.cards > li {
+  background-color: #fff;
+}
+
+.team {
+  background-color: #F4F4FD;
+}
+
+.footer {
+  background-color: #2E2F42;
+}
+
+.footer-title{
+  font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #F4F4FD;
+}
+
+.marking-word{
+  color: #4D5AE5;
+}
+
+.footer > p {
+  color: #F4F4FD;
+}

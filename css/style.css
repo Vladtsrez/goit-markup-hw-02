@@ -44,14 +44,22 @@ color: #2E2F42;
 }
 
 .list-link:active {
-  background-color: #404BBF;
+  color: #404BBF;
 }
 
 .address {
   font-style: normal;
 }
 
-.address:active{
+.mail:active,
+.mail:hover
+{
+  color: #404BBF;
+}
+
+.phone:active,
+.phone:hover
+{
   color: #404BBF;
 }
 

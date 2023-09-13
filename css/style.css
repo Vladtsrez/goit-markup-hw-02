@@ -82,7 +82,8 @@ h3{
 }
 
 .address-link:hover,
-.address-link:active
+.address-link:active,
+.address-link:focus
 {
   color: var(--ocean-color);
 }

@@ -1,9 +1,15 @@
+:root {
+  --navy-blue-color: #2E2F42;
+  --slate-color: #434455;
+  --iris-color: #4D5AE5;
+}
+
 body{
   font-family: 'Roboto',
     sans-serif;
   font-size: 16px; 
   background-color: #fff;
-  color: #434455;
+  color: var(--slate-color);
   font-weight: 400;
   letter-spacing: 2%;
 }
@@ -14,37 +20,41 @@ ul {
 
 a {
   text-decoration: none;
-  color: #434455;
+  color: var(--slate-color);
+}
+
+button {
+  cursor: pointer;
 }
 
 h2 {
   font-weight: 500;
   font-size: 36px;
-  color: #2E2F42;
+  color: var(--navy-blue-color);
   text-align: center;
 }
 
 h3{
   font-size: 20px;
   font-weight: 500;
-  color: #2E2F42;
+  color: var(--navy-blue-color);
 }
 
 .header-title {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 18px;
-  color: #2E2F42;
+  color: var(--navy-blue-color);
 }
 
 .list-link {
 font-size: 16px;
 font-weight: 500;
-color: #2E2F42;
+color: var(--navy-blue-color);
 }
 
 .list-link:active {
-  color: #404BBF;
+  color: var(--iris-color);
 }
 
 .address {
@@ -54,41 +64,41 @@ color: #2E2F42;
 .mail:active,
 .mail:hover
 {
-  color: #404BBF;
+  color: var(--iris-color);
 }
 
 .phone:active,
 .phone:hover
 {
-  color: #404BBF;
+  color: var(--iris-color);
 }
 
 .hero-image {
-  background-color: #2E2F42;
+  background-color: var(--navy-blue-color);
   text-align: center;
 }
 
 .hero-title {
   color: #FFFFFF;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   font-weight: 700;
 }
 
 .hero-btn {
-  background-color: #4D5AE5;
+  background-color: var(--iris-color);
   color:  #fff;
   font-weight: 500;
   letter-spacing: 4%;
-  line-height: 24px;
+  line-height: 1.5;
 }
 
 .hero-btn:hover{
-  background-color: #404BBF;
+  background-color: var(--iris-color);
 }
 
 .features-text {
-  line-height: 24px;
+  line-height: 1.5;
 }
 
 .cards > li {
@@ -100,7 +110,7 @@ color: #2E2F42;
 }
 
 .footer {
-  background-color: #2E2F42;
+  background-color: var(--navy-blue-color);
 }
 
 .footer-title{
@@ -111,7 +121,7 @@ color: #2E2F42;
 }
 
 .marking-word{
-  color: #4D5AE5;
+  color: var(--iris-color);
 }
 
 .footer > p {
